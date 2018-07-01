@@ -38,7 +38,7 @@
             <artifactId>vaadin-compatibility-shared</artifactId>
             <version>${vaadin.version}</version>
         </dependency>
-         <dependency>
+         <!--dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-compatibility-client-compiled</artifactId>
             <version>${vaadin.version}</version>
@@ -48,12 +48,12 @@
             <artifactId>vaadin-themes</artifactId>
             <version>${vaadin.version}</version>
         </dependency>
-        <dependency>
+         dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.0.1</version>
             <scope>provided</scope>
-        </dependency>
+        </dependency> 
         <!-- The huge set of awesome Java libraries are available as such 
             for Vaadin developers, you should take the advantage of those. In this app 
             we just use the commons-beanutils to help implementing the fake backend. -->
